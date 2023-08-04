@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: red;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
